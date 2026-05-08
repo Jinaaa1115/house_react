@@ -25,7 +25,7 @@ export default function HousePredictor() {
     setResult(null)
 
     const areaNum = parseFloat(area)
-    if (!area || isNaN(areaNum)) return setError('Please enter a valid area.')
+    if (!area || isNaN(areaNum)) return setError('Please enter a valid area,sweetie.')
     if (areaNum < 100 || areaNum > 10000) return setError('Area must be between 100 and 10,000 sq ft.')
 
     setLoading(true)
